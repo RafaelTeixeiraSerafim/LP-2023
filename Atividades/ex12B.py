@@ -10,22 +10,22 @@
 # d. Remova um item da lista esporte.
 
 filmes = []
-filmes.append(input())
-filmes.append(input())
+filmes.append(input('Digite o nome de um filme: '))
+filmes.append(input('Digite o nome de um filme: '))
 
 jogos = []
-jogos.append(input())
-jogos.append(input())
+jogos.append(input('Digite o nome de um jogo: '))
+jogos.append(input('Digite o nome de um jogo: '))
 
 livros = []
-livros.append(input())
-livros.append(input())
+livros.append(input('Digite o nome de um livro: '))
+livros.append(input('Digite o nome de um livro: '))
 
 esporte = []
-esporte.append(input())
-esporte.append(input())
+esporte.append(input('Digite o nome de um esporte: '))
+esporte.append(input('Digite o nome de um esporte: '))
 
 conjunto = [filmes, jogos, livros, esporte]
 
-print(f"Livro: {livros[0]}")
+print(f"Livro 1: {livros[0]}")
 esporte.pop(0)

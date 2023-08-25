@@ -1,5 +1,8 @@
 # Escreva um Programa que leia uma lista de 5 números inteiros, mostre a soma deles
 
-lista = [1, 2, 3, 4, 5]
+lista = []
 
-print(sum(lista))
+for i in range(5):
+    lista.append(int(input('Digite um número inteiro: ')))
+
+print(f'A soma dos números é {sum(lista)}')

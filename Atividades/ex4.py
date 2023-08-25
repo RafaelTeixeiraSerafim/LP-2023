@@ -1,7 +1,7 @@
 # Faça um programa que leia algo pelo teclado e mostre na tela seu tipo de dado e todas as informações sobre
 # ele.
 
-s = input()
+s = input('Digite algo: ')
 
 print(f"Alfanumérico: {s.isalnum()}")
 print(f"Alfabético: {s.isalpha()}")

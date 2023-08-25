@@ -1,10 +1,13 @@
 # Escreva um Programa que verifique se um elemento está na lista e verifique a posição exata dele da lista.
 
-lista = [1, 2, 3, 4, 5]
+lista = []
 
-x = 3
+for i in range(5):
+    lista.append(input('Digite um item: '))
+
+x = input('\nDigite um item para procurar: ')
 
 if x in lista:
-    print(lista.index(x))
+    print(f'Esse item está na posição {lista.index(x)} da lista')
 else:
-    print('Não está na lista')
+    print('Esse item não está na lista')

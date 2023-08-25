@@ -2,9 +2,9 @@
 # trabalhadas, valor da hora trabalhada. Após calcule seu salário bruto. Calcule um desconto de 2% de INSS. E
 # ao final mostrar seu nome e salário final calculado.
 
-nome = input()
-horas = float(input())
-valor = float(input())
+nome = input('Digite seu nome: ')
+horas = float(input('Digite o número de horas trabalhadas: '))
+valor = float(input('Digite o valor da hora trabalhada: '))
 
 salario_bruto = horas * valor
 
